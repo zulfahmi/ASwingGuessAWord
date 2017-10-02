@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package id.co.indocyber.guessgame;
 
 import id.co.indocyber.guessgame.model.WordModel;
@@ -19,15 +14,9 @@ import java.util.logging.Logger;
 public class GuessingGame extends javax.swing.JFrame {
 
     WordModel modelWord;
-    //String basicWord;
-    //String[] bankSoal = { "Pondok Indah","Sudirman","Tugu Tani","Citos","Gandaria City"};
-//    WordModel soal1 = new WordModel("Pondok Indah", "Daerah di Jakarta Selatan");
-//    WordModel soal2 = new WordModel("Sudirman", "Jalan utama di Jakarta");
-//    WordModel soal3 = new WordModel("Tugu Tani", "Patung dekat Monas");
-//    WordModel soal4 = new WordModel("Citos", "Mall di Selatan Jakarta");
-//    WordModel soal5 = new WordModel("Gandaria City", "Mall anak muda");
-    //WordModel[] bankSoal;
+    // Di sini sebelumnya ada code lain
     List<WordModel> bankSoal;
+    private int counter;
 
     /**
      * Creates new form GuessingGame
